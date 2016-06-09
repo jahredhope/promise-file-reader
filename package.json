@@ -1,0 +1,26 @@
+{
+  "name": "promise-file-reader",
+  "version": "0.0.1",
+  "description": "Wraps FileReader in a Promise",
+  "main": "PromiseFileReader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahredhope/promise-file-reader.git"
+  },
+  "keywords": [
+    "Promise",
+    "FileReader",
+    "FileAPI",
+    "File API",
+    "File"
+  ],
+  "author": "Jahred Hope <jahredhope@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahredhope/promise-file-reader/issues"
+  },
+  "homepage": "https://github.com/jahredhope/promise-file-reader#readme"
+}
