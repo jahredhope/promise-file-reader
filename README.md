@@ -28,7 +28,7 @@ function newTextFile(text) {
 const fileInput = document.getElementById('file')
 fileInput.addEventListener("change", handleFiles, false)
 function handleFiles(event) {
-  const fileMetaData =  this.files[0];
+  const fileMetaData =  this.files[0]
 
   if(fileMetaData) {
     if (/^image/.test(fileMetaData.type)) {
