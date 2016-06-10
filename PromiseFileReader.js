@@ -1,5 +1,5 @@
 function readAsDataURL(file) {
-  if (!(file instanceof File || file instanceof Blob)) {
+  if (!(file instanceof Blob)) {
     throw new TypeError('Must be a File or Blob')
   }
   return new Promise((resolve, reject) => {
@@ -11,7 +11,7 @@ function readAsDataURL(file) {
 }
 
 function readAsText(file) {
-  if (!(file instanceof File || file instanceof Blob)) {
+  if (!(file instanceof Blob)) {
     throw new TypeError('Must be a File or Blob')
   }
   return new Promise((resolve, reject) => {
@@ -23,7 +23,7 @@ function readAsText(file) {
 }
 
 function readAsArrayBuffer(file) {
-  if (!(file instanceof File || file instanceof Blob)) {
+  if (!(file instanceof Blob)) {
     throw new TypeError('Must be a File or Blob')
   }
   return new Promise((resolve, reject) => {
