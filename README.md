@@ -16,12 +16,15 @@ PromiseFileReader.readAsDataURL(fileData)
 
 
 ```javascript
-import {readAsDataURL, readAsText} from 'promise-file-reader'
+import {readAsDataURL, readAsText, readAsArrayBuffer} from 'promise-file-reader'
 
 function newImage(imageDataUrl) {
   ...
 }
 function newTextFile(text) {
+  ...
+}
+function loadedArrayBuffer(arrayBuffer) {
   ...
 }
 
@@ -40,6 +43,10 @@ function handleFiles(event) {
       .then(newTextFile)
       .catch(err => console.error(err))
     }
+
+    readAsArrayBuffer(fileMetaData)
+      .then(loadedArrayBuffer)
+      .catch(err => console.error(err))
   }
 }
 ```
