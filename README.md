@@ -1,6 +1,8 @@
 # promise-file-reader
 Wraps FileReader in a Promise
 
+![](https://travis-ci.org/jahredhope/promise-file-reader.svg?branch=master)
+
 ```
 npm install --save promise-file-reader
 ```
