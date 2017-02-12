@@ -4,7 +4,7 @@
   "description": "Wraps FileReader in a Promise",
   "main": "PromiseFileReader.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ."
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/jahredhope/promise-file-reader/issues"
   },
-  "homepage": "https://github.com/jahredhope/promise-file-reader#readme"
+  "homepage": "https://github.com/jahredhope/promise-file-reader#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
+  }
 }
