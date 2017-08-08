@@ -5,7 +5,7 @@ function readAs (file, as) {
   return new Promise(function(resolve, reject) {
     const reader = new FileReader()
     reader.onload = function(e) { resolve(e.target.result) }
-    reader.onerror = function(e) { reject('Error reading' + file.name + ': ' + e.target.result) }
+    reader.onerror = function(e) { reject(new Error('Error reading' + file.name + ': ' + e.target.result)) }
     reader['readAs' + as](file)
   })
 }
