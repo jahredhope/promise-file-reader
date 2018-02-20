@@ -1,6 +1,6 @@
 {
   "name": "promise-file-reader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wraps FileReader in a Promise",
   "main": "PromiseFileReader.js",
   "scripts": {
